@@ -1,0 +1,14 @@
+Source: libopenimageio-daily
+Section: graphics
+Priority: optional
+Maintainer: OIIO Developers <info@openimageio.org>
+Build-Depends: debhelper (>= 9), cmake, pkg-config, libc6-dev
+Standards-Version: 2.1.2-dev
+Homepage: https://github.com/OpenImageIO/oiio
+Vcs-Git: https://github.com/OpenImageIO/oiio
+Vcs-Browser: https://github.com/OpenImageIO/oiio
+
+Package: libopenimageio-daily
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The primary target audience for OIIO is VFX studios and developers of tools such as renderers, compositors, viewers, and other image-related software you'd find in a production pipeline.

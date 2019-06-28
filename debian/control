@@ -2,7 +2,7 @@ Source: libopenimageio-daily
 Section: graphics
 Priority: optional
 Maintainer: OIIO Developers <info@openimageio.org>
-Build-Depends: debhelper (>= 9), cmake, pkg-config, libc6-dev
+Build-Depends: debhelper (>= 9), cmake, pkg-config, libc6-dev, libtiff-dev, libopenexr-dev, libtbb-dev, libpng-dev
 Standards-Version: 2.1.2-dev
 Homepage: https://github.com/OpenImageIO/oiio
 Vcs-Git: https://github.com/OpenImageIO/oiio
